@@ -4,6 +4,7 @@ public class TryingMethods {
         test.dayOfTheWeekString(3);
         test.message(12);
         Add();
+        ForLoop();
     }
 
     public static void Add() {
@@ -12,6 +13,14 @@ public class TryingMethods {
         while (number < 1000) {
             number += 1;
             sum += number;
+        }
+        System.out.println(sum);
+    }
+
+    static void ForLoop(){
+        int sum = 0;
+        for (int i = 12; i <= 103; i++) {
+            sum += i;
         }
         System.out.println(sum);
     }
