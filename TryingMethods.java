@@ -3,6 +3,17 @@ public class TryingMethods {
         TryingMethods test = new TryingMethods();
         test.dayOfTheWeekString(3);
         test.message(12);
+        Add();
+    }
+
+    public static void Add() {
+        int number = 1;
+        int sum = 0;
+        while (number < 1000) {
+            number += 1;
+            sum += number;
+        }
+        System.out.println(sum);
     }
 
     String message (int age){
