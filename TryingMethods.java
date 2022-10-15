@@ -2,11 +2,12 @@
 
 public class TryingMethods {
     public static void main(String[] args) {
-        dayOfTheWeekString(6);
+        TryingMethods day = new TryingMethods();
+        day.dayOfTheWeekString(4);
     }
 
     
-    public static String dayOfTheWeekString(int day) {
+    String dayOfTheWeekString(int day) {
         switch (day) {
             case 1:
                 System.out.println("Monday");
