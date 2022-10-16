@@ -21,7 +21,9 @@ public class TryingMethods {
     static void ForLoop() {
         int sum = 0;
         for (int i = 12; i <= 103; i++) {
-            sum += i;
+            if(i % 2 == 0){
+                sum += i;
+            }
         }
         System.out.println(sum);
     }
