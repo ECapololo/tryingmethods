@@ -1,7 +1,7 @@
 public class TryingMethods {
     public static void main(String[] args) {
         TryingMethods test = new TryingMethods();
-        test.dayOfTheWeekString(3);
+        test.dayOfTheWeekString(1);
         test.message(12);
         Add();
         ForLoop();
@@ -17,7 +17,7 @@ public class TryingMethods {
         System.out.println(sum);
     }
 
-    static void ForLoop(){
+    static void ForLoop() {
         int sum = 0;
         for (int i = 12; i <= 103; i++) {
             sum += i;
@@ -25,15 +25,15 @@ public class TryingMethods {
         System.out.println(sum);
     }
 
-    String message (int age){
-       if (age <= 17) {
+    String message(int age) {
+        if (age <= 17) {
             System.out.println("Is a small children");
         } else if (age >= 18 || age <= 60) {
             System.out.println("Is a Young boy or girl");
         } else {
             System.out.println("Is a Older man");
-        }         
-        
+        }
+
         return "";
     }
 
