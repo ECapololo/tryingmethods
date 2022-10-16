@@ -1,3 +1,4 @@
+//I create here all the for methods
 public class TryingMethods {
     public static void main(String[] args) {
         TryingMethods test = new TryingMethods();
