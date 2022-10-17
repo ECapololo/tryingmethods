@@ -1,4 +1,6 @@
-//I create here all the for methods
+/*
+ * I created here in this class all the static and dynamic methods as a way of testing
+ */
 public class TryingMethods {
     public static void main(String[] args) {
         TryingMethods test = new TryingMethods();
