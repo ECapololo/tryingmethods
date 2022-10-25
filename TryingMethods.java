@@ -1,14 +1,17 @@
-//I create here all the for methods
+/*
+ * I created here in this class all the static and dynamic methods as a way of testing
+ */
 public class TryingMethods {
     public static void main(String[] args) {
         TryingMethods test = new TryingMethods();
         test.dayOfTheWeekString(1);
         test.message(12);
-        Add();
-        ForLoop();
+        add();
+        forLoop();
     }
 
-    public static void Add() {
+//One of the static methods uses a while loop to find the sum of all numbers less than 1000 and return the result.
+    public static void add() {
         int number = 1;
         int sum = 0;
         while (number < 1000) {
@@ -18,7 +21,8 @@ public class TryingMethods {
         System.out.println(sum);
     }
 
-    static void ForLoop() {
+//Lastly, the last method uses a for loop to find the sum of even numbers between 12 and 103.    
+    static void forLoop() {
         int sum = 0;
         for (int i = 12; i <= 103; i++) {
             if(i % 2 == 0){
@@ -28,6 +32,7 @@ public class TryingMethods {
         System.out.println(sum);
     }
 
+//Print a message to the console using an if statement with at least 3 blocks.    
     String message(int age) {
         if (age <= 17) {
             System.out.println("Is a small children");
@@ -40,6 +45,7 @@ public class TryingMethods {
         return "";
     }
 
+// It return a string of the day of the week based on the argument that was provided:  dynamic methods
     String dayOfTheWeekString(int day) {
         switch (day) {
             case 1:
