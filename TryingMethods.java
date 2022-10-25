@@ -6,11 +6,11 @@ public class TryingMethods {
         TryingMethods test = new TryingMethods();
         test.dayOfTheWeekString(1);
         test.message(12);
-        Add();
-        ForLoop();
+        add();
+        forLoop();
     }
 
-    public static void Add() {
+    public static void add() {
         int number = 1;
         int sum = 0;
         while (number < 1000) {
@@ -20,7 +20,7 @@ public class TryingMethods {
         System.out.println(sum);
     }
 
-    static void ForLoop() {
+    static void forLoop() {
         int sum = 0;
         for (int i = 12; i <= 103; i++) {
             if(i % 2 == 0){
