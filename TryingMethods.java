@@ -10,6 +10,7 @@ public class TryingMethods {
         forLoop();
     }
 
+//One of the static methods uses a while loop to find the sum of all numbers less than 1000 and return the result.
     public static void add() {
         int number = 1;
         int sum = 0;
@@ -20,6 +21,7 @@ public class TryingMethods {
         System.out.println(sum);
     }
 
+//Lastly, the last method uses a for loop to find the sum of even numbers between 12 and 103.    
     static void forLoop() {
         int sum = 0;
         for (int i = 12; i <= 103; i++) {
@@ -30,6 +32,7 @@ public class TryingMethods {
         System.out.println(sum);
     }
 
+//Print a message to the console using an if statement with at least 3 blocks.    
     String message(int age) {
         if (age <= 17) {
             System.out.println("Is a small children");
@@ -42,6 +45,7 @@ public class TryingMethods {
         return "";
     }
 
+// It return a string of the day of the week based on the argument that was provided:  dynamic methods
     String dayOfTheWeekString(int day) {
         switch (day) {
             case 1:
